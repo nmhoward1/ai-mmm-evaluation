@@ -53,7 +53,7 @@ Sample Images:
 ## 📑 Results Summary
 - Predictions generally tracked real revenue trends, with residuals being under $2,000 off. This is shown by the MAPE being between 20% and 10% in development and production.    
 - Some channels showed **systematic bias**:
-  ADWORDS ads showed a high unpredictability, while Pinterest ads captured better RMSE.  
+  Adwords showed a high unpredictability, while Pinterest ads captured better RMSE.  
 - Certain features were highly correlated, suggesting possible model simplification.  
 - Overall error rates were within an interpretable range but highlighted areas for model refinement.
 
