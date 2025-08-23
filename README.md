@@ -1,6 +1,6 @@
-# AI-MMM-Evaluation
+# AI-MMM-Evaluation EDA
 
-## AI Marketing Mix Model Evaluation Analysis
+## AI Marketing Mix Model Evaluation EDA Analysis
 
 This project evaluates the performance of an AI model that predicts marketing channel revenue compared to **actual reported revenue**.  
 It includes error analysis, visualizations, and a presentation of key findings.
@@ -34,14 +34,21 @@ The goal of this project is to:
 | Function                        | Purpose                                                                     |
 | ------------------------------- | --------------------------------------------------------------------------- |
 | `scatter_actual_vs_modeled()` | Plots actual vs modeled revenue to quickly assess overall fit.              |
-| `time_series_revenue()`       | Visualizes revenue trends over time for both actual and modeled values.    
+| `time_series_revenue()`       | Visualizes revenue trends over time for both actual and modeled values.     |
 | `error_over_time()`           | Plots residuals (actual - modeled) to detect temporal bias or drift.        |
 | `box_plot_error_by_channel()` | Shows distribution of % errors by marketing channel.                        |
-
 | `rmse_by_channel()`           | Computes and visualizes RMSE per channel to identify large errors.          |
-
 | `error_histogram()`           | Displays the distribution of prediction errors to spot systemic bias.       |
 | `correlation_heatmap()`       | Shows correlation among numeric input features to detect multicollinearity. |
+
+---
+Sample Images:
+
+### Error Distribution
+![Distribution of Errors](Data_Visuals/distribution_error_producion.png)
+
+### RMSE by Channel (Production Data)
+![RMSE by Channel](Data_Visuals/RMSE_Production_byChannel.png)
 
 ## 📑 Results Summary
 - Predictions generally tracked real revenue trends, with residuals being under $2,000 off. This is shown by the MAPE being between 20% and 10% in development and production.    
