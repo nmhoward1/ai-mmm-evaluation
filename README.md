@@ -1,7 +1,6 @@
 # AI-MMM-Evaluation
-## AI Marketing Mix Model Evaluation Analysis
 
-# AI Revenue Model Evaluation
+## AI Marketing Mix Model Evaluation Analysis
 
 This project evaluates the performance of an AI model that predicts marketing channel revenue compared to **actual reported revenue**.  
 It includes error analysis, visualizations, and a presentation of key findings.
@@ -22,15 +21,15 @@ The goal of this project is to:
 - Evaluate performance by marketing channel.
 - Examine input feature correlations.
 - Detect systematic biases or underperforming channels.
+---
+##  Key Features
 
-## 🛠️ Key Features
-
-### 🔑 Model KPIs
+###  Model KPIs
 - **MAE (Mean Absolute Error)**
 - **RMSE (Root Mean Squared Error)**
 - **MAPE (Mean Absolute Percentage Error)**
 
-## Features / Functions
+## Visual Functions
 
 | Function                        | Purpose                                                                     |
 | ------------------------------- | --------------------------------------------------------------------------- |
